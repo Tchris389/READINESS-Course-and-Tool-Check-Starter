@@ -71,7 +71,7 @@ img {
     gap: .5rem;
   }
 
-  .viewport-status::after {
+   .viewport-status::after {
     content: "wide-ready";
   }
   @media (max-width: 40rem){
@@ -79,4 +79,5 @@ img {
       content: "narrow-ready";
     }
   }
+  
 }
